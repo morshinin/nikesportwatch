@@ -1,0 +1,18 @@
+// _video.scss
+.l-video {
+  background-color: #e95833;
+  &__title {
+    font-family: $gnuolane;
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &__subtitle {
+    font-family: $gnuolane;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 34px;
+    color: #fff;
+  }
+}

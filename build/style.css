@@ -499,6 +499,21 @@ th {
   line-height: 45px;
   color: #171717; }
 
+.l-video {
+  background-color: #e95833; }
+  .l-video__title {
+    font-family: "Gnuolane", sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff; }
+  .l-video__subtitle {
+    font-family: "Gnuolane", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 34px;
+    color: #fff; }
+
 .m-logo--header {
   text-decoration: none;
   color: #000;
