@@ -1,0 +1,30 @@
+// _catalogitem.scss
+.m-catalogItem {
+
+  &__image {
+    border: 1px solid #e8e8e8;
+  }
+  &__price {
+    font-family: $baseFont;
+    font-size: 20px;
+    font-weight: normal;
+    color: #2e2e2e;
+  }
+  &--secondary {
+    &__image {
+      border: 1px solid #e8e8e8;
+    }
+    &__description {
+      font-family: $gnuolane;
+      font-size: 20px;
+      font-weight: normal;
+      color: #2e2e2e;
+    }
+    &__price {
+      font-family: $baseFont;
+      font-size: 20px;
+      font-weight: normal;
+      color: #2e2e2e;
+    }
+  }
+}
