@@ -446,6 +446,27 @@ th {
   .l-catalog__list--secondary {
     list-style-type: none; }
 
+.l-callToAction--primary {
+  background-color: #1e1b28;
+  text-align: center; }
+  .l-callToAction--primary__title {
+    font-family: "Gnuolane", sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff; }
+  .l-callToAction--primary__text {
+    font-family: "PT Sans Regular", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 45px;
+    color: #fff; }
+  .l-callToAction--primary__link {
+    font-family: "PT Sans Regular", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #5c5c6e; }
+
 .m-logo--header {
   text-decoration: none;
   color: #000;

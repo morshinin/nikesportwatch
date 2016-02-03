@@ -1,0 +1,25 @@
+// _calltoaction--primary
+.l-callToAction--primary {
+  background-color: #1e1b28;
+  text-align: center;
+  &__title {
+    font-family: $gnuolane;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &__text {
+    font-family: $baseFont;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 45px;
+    color: #fff;
+  }
+  &__link {
+    font-family: $baseFont;
+    font-size: 14px;
+    font-weight: normal;
+    color: #5c5c6e;
+  }
+}
