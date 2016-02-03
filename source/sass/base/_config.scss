@@ -1,5 +1,10 @@
 // _config.scss
 
+// Font families
+$baseFont: 'PT Sans Regular', sans-serif;
+$boldFont: 'pt-sans-bold', sans-serif;
+$gnuolane: 'Gnuolane', sans-serif;
+
 // Font-sizes
 $title--price: 75px;
 $title--section: 60px;
@@ -9,7 +14,7 @@ $subtitle--secondary: 30px;
 $title--small: 20px;
 $subtitle--small: 18px;
 $text: 16px;
-$text--small: 14px;
+$smallSize: 14px;
 $text--smallest: 13px;
 
 // Margins
@@ -22,5 +27,7 @@ $textMargin2: 30px;
 $textMargin3: 10px;
 
 // Colors
-$text--base: #000;
+$baseColor: #000;
+$baseInverted: #fff;
+$highlight: #e95631;
 $text--secondary: #808080;

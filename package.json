@@ -37,5 +37,9 @@
     "gulp-postcss": "^6.0.1",
     "gulp-sass": "^2.1.1",
     "postcss-font-magician": "^1.4.0"
+  },
+  "dependencies": {
+    "normalize-scss": "^4.0.3",
+    "normalize.css": "^3.0.3"
   }
 }

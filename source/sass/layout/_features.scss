@@ -1,0 +1,31 @@
+// _features.scss
+.l-features {
+  &__title {
+    font-family: $gnuolane;
+    font-size: 50px;
+    font-weight: normal;
+    color: $baseColor;
+  }
+  &__list {
+    @include listUnstyled;
+  }
+  &__item {
+
+  }
+  &__icon {
+
+  }
+  &__text {
+    font-family: $baseFont;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #393939;
+  }
+  &__small {
+    font-family: $baseFont;
+    font-size: 14px;
+    font-weight: normal;
+    color: #818181;
+  }
+}

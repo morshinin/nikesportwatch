@@ -1,0 +1,29 @@
+// _fonts.scss
+@font-face {
+  font-family: 'PT Sans Regular';
+  // src: url('fonts/pt-sans-regular.eot');
+  // src: url('fonts/pt-sans-regular.woff2') format('woff2')
+  src: url('fonts/pt-sans-regular.ttf') format('truetype');
+  // url('fonts/pt-sans-regular.ttf') format('truetype'),
+  // url('fonts/pt-sans-regular.svg') format('svg');
+}
+@font-face {
+  font-family: 'PT Sans Bold';
+  src: url('fonts/pt-sans-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gnuolane';
+  // src: url('fonts/gnuolane_free_cyrillic-webfont.eot');
+  // src: url('fonts/gnuolane_free_cyrillic-webfont.woff2') format('woff2'),
+  // url('fonts/gnuolane_free_cyrillic-webfont.woff') format('woff'),
+  src: url('fonts/gnuolane-free-cyrillic.ttf') format('truetype'),
+  // url('fonts/gnuolane_free_cyrillic-webfont.svg') format('svg');
+}
+@font-face {
+  font-family: 'Bebas';
+  // src: url('fonts/bebasneue_regular-webfont.eot');
+  // src: url('fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+  //  url('fonts/bebasneue_regular-webfont.woff') format('woff'),
+   src: url('fonts/bebasNeue-Regular.ttf') format('truetype'),
+  //  url('fonts/bebasneue_regular-webfont.svg') format('svg');
+}

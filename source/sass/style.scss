@@ -1,1 +1,16 @@
+// Base styles
+@import "base/normalize";
+@import "base/fonts";
 @import 'base/config';
+@import "base/presets";
+@import "base/mixins";
+
+// Layout styles
+@import "layout/header";
+@import "layout/banner";
+@import "layout/features";
+
+// Module styles
+@import "module/logo";
+@import "module/timer";
+@import "module/button";

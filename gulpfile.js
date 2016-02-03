@@ -15,9 +15,9 @@ var jade = require('gulp-jade');
 
 gulp.task('css', function() {
   var processors = [
-    magician,
-    autoprefixer,
-    cssnano
+    // magician({hosted:'../fonts'}),
+    autoprefixer
+    // cssnano
   ];
   return gulp.src('./source/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))

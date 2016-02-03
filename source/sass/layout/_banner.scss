@@ -1,0 +1,23 @@
+// _banner.scss
+.l-banner {
+  background-color: #171520;
+  &__title {
+    font-family: $gnuolane;
+    font-size: 60px;
+    font-weight: normal;
+    color: $baseInverted;
+  }
+  &__price {
+    font-family: $gnuolane;
+    font-size: 75px;
+    font-weight: bold;
+    color: $highlight;
+  }
+  &__discount {
+    font-family: $gnuolane;
+    font-size: 25.32px;
+    font-weight: normal;
+    color: #4d4d4d;
+    opacity: .5;
+  }
+}

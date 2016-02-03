@@ -1,0 +1,23 @@
+// _header.scss
+.l-header {
+  &__contact {
+    @include listUnstyled;
+  }
+  &__phone {
+    a {
+      font-family: $boldFont;
+      font-size: $subtitle--secondary;
+      color: $baseColor;
+      text-decoration: none;
+    }
+  }
+  &__email {
+    a {
+      font-family: $baseFont;
+      color: $baseColor;
+      font-size: $smallSize;
+      opacity: .5;
+      text-decoration: none;
+    }
+  }
+}
