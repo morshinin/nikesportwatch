@@ -467,6 +467,38 @@ th {
     font-weight: normal;
     color: #5c5c6e; }
 
+.l-benefits__title {
+  font-family: "Gnuolane", sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 59px;
+  color: #060707; }
+
+.l-benefits__subtitle {
+  font-family: "Gnuolane", sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #171717; }
+
+.l-benefits__text {
+  font-family: "PT Sans Regular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #3b3b3b; }
+
+.l-benefits__smallTitle {
+  font-family: "Gnuolane", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 45px;
+  color: #171717; }
+
 .m-logo--header {
   text-decoration: none;
   color: #000;
