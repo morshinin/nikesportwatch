@@ -1,6 +1,12 @@
 // _video.scss
 .l-video {
   background-color: #e95833;
+  &__row {
+    @include row;
+  }
+  &__item {
+    lost-column: 5/12;
+  }
   &__title {
     font-family: $gnuolane;
     font-size: 60px;
@@ -14,5 +20,8 @@
     font-weight: normal;
     line-height: 34px;
     color: #fff;
+  }
+  &__player {
+    lost-column: 7/12;
   }
 }
