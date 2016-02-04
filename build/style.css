@@ -370,6 +370,10 @@ th {
   src: url("fonts/gnuolane-free-cyrillic.ttf") format("truetype"); }
 
 @font-face {
+  font-family: 'Iris';
+  src: url("fonts/Iris-Normal.ttf") format("truetype"); }
+
+@font-face {
   font-family: 'Bebas';
   src: url("fonts/bebasNeue-Regular.ttf") format("truetype"); }
 
@@ -666,10 +670,67 @@ th {
     text-decoration: underline;
     color: #ffa282; }
 
+.l-footer {
+  background-color: #171520;
+  color: #8b8a8f; }
+  .l-footer__title {
+    font-family: "Gnuolane", sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;
+    color: #fff;
+    opacity: .5; }
+  .l-footer__subtitle {
+    font-family: "Iris", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    opacity: .5; }
+  .l-footer__phone {
+    font-family: "PT Sans Regular", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;
+    color: #8b8a8f; }
+  .l-footer__address {
+    font-family: "PT Sans Regular", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #8b8a8f; }
+  .l-footer__email {
+    font-family: "PT Sans Regular", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #8b8a8f; }
+  .l-footer__social {
+    font-family: "PT Sans Regular", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #8b8a8f; }
+  .l-footer__instagram {
+    font-size: 14px; }
+  .l-footer__bottom {
+    border-top: 1px solid #8b8a8f; }
+  .l-footer__copyright {
+    font-size: 13px; }
+  .l-footer__companyInfo {
+    font-size: 14px; }
+
 .m-logo--header {
   text-decoration: none;
   color: #000;
   font-size: 15px; }
+
+.m-logo__text--footer {
+  font-family: "PT Sans Regular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: none;
+  text-decoration: none;
+  color: #fff;
+  opacity: .5; }
 
 .m-timer__title {
   font-family: "Gnuolane", sans-serif;

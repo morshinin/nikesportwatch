@@ -1,0 +1,61 @@
+// _footer.scss
+$footerTextColor: #8b8a8f;
+.l-footer {
+  background-color: #171520;
+  color: $footerTextColor;
+  &__title {
+    font-family: $gnuolane;
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;
+    color: #fff;
+    opacity: .5;
+  }
+  &__subtitle {
+    font-family: $iris;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: .5;
+  }
+  &__phone {
+    font-family: $baseFont;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;
+    color: $footerTextColor;
+  }
+  &__address {
+    font-family: $baseFont;
+    font-size: 14px;
+    font-weight: normal;
+    color: $footerTextColor;
+  }
+  &__email {
+    font-family: $baseFont;
+    font-size: 14px;
+    font-weight: normal;
+    color: $footerTextColor;
+  }
+  &__social {
+    font-family: $baseFont;
+    font-size: 14px;
+    font-weight: normal;
+    color: $footerTextColor;
+  }
+  &__instagram {
+    font-size: 14px;
+  }
+  &__bottom {
+    border-top: 1px solid $footerTextColor;
+  }
+  &__copyright {
+    font-size: 13px;
+  }
+  &__companyInfo {
+    font-size: 14px;
+  }
+}
