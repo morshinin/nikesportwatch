@@ -1,6 +1,9 @@
 // _calltoaction--third.scss
 .l-callToAction--third {
   background-color: #eb5a32;
+  &__row {
+    @include row();
+  }
   &__title {
     font-family: $gnuolane;
     font-size: 60px;
@@ -10,6 +13,8 @@
     color: #fff;
   }
   &__text {
+    lost-column: 10/12;
+    lost-move: 1/12;
     font-family: $baseFont;
     font-size: 30px;
     font-weight: normal;
@@ -22,7 +27,11 @@
       font-family: $boldFont;
     }
   }
+  &__input {
+    lost-column: 1/3;
+  }
   &__link {
+    float: right;
     font-family: $baseFont;
     font-size: 14px;
     font-weight: normal;
