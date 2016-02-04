@@ -382,6 +382,12 @@ th {
 
 body *:not(input):not(textarea):not(select) {
   background-color: rgba(0, 0, 255, 0.1); }
+
+.align-right {
+  float: right; }
+
+.align-left {
+  float: left; }
 .l-header {
   *zoom: 1;
   max-width: 980px;
@@ -646,6 +652,20 @@ body *:not(input):not(textarea):not(select) {
 .l-callToAction--primary {
   background-color: #1e1b28;
   text-align: center; }
+  .l-callToAction--primary__row {
+    *zoom: 1;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .l-callToAction--primary__row:before {
+  content: '';
+  display: table; }
+  .l-callToAction--primary__row:after {
+  content: '';
+  display: table;
+  clear: both; }
   .l-callToAction--primary__title {
     font-family: "Gnuolane", sans-serif;
     font-size: 50px;
@@ -658,11 +678,31 @@ body *:not(input):not(textarea):not(select) {
     font-weight: normal;
     line-height: 45px;
     color: #fff; }
+  .l-callToAction--primary__button {
+    display: block;
+    text-align: center; }
   .l-callToAction--primary__link {
     font-family: "PT Sans Regular", sans-serif;
     font-size: 14px;
     font-weight: normal;
     color: #5c5c6e; }
+
+.l-benefits__row {
+  *zoom: 1;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.l-benefits__row:before {
+  content: '';
+  display: table; }
+
+.l-benefits__row:after {
+  content: '';
+  display: table;
+  clear: both; }
 
 .l-benefits__title {
   font-family: "Gnuolane", sans-serif;
@@ -680,6 +720,29 @@ body *:not(input):not(textarea):not(select) {
   text-transform: uppercase;
   color: #171717; }
 
+.l-benefits__list {
+  list-style-type: none; }
+
+.l-benefits__item {
+  width: calc(99.99% * 1/2 - (20px - 20px * 1/2)); }
+
+.l-benefits__item:nth-child(1n) {
+  float: left;
+  margin-right: 20px;
+  clear: none; }
+
+.l-benefits__item:last-child {
+  margin-right: 0; }
+
+.l-benefits__item:nth-child(2n) {
+  float: right; }
+
+.l-benefits__item:nth-child(2n) {
+  margin-right: 0; }
+
+.l-benefits__item:nth-child(2n + 1) {
+  clear: left; }
+
 .l-benefits__text {
   font-family: "PT Sans Regular", sans-serif;
   font-size: 16px;
@@ -694,7 +757,17 @@ body *:not(input):not(textarea):not(select) {
   text-transform: uppercase;
   text-align: center;
   line-height: 45px;
-  color: #171717; }
+  color: #171717;
+  *zoom: 1; }
+
+.l-benefits__smallTitle:before {
+  content: '';
+  display: table; }
+
+.l-benefits__smallTitle:after {
+  content: '';
+  display: table;
+  clear: both; }
 
 .l-video {
   background-color: #e95833; }

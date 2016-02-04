@@ -2,6 +2,9 @@
 .l-callToAction--primary {
   background-color: #1e1b28;
   text-align: center;
+  &__row {
+    lost-center: $container 20px;
+  }
   &__title {
     font-family: $gnuolane;
     font-size: 50px;
@@ -15,6 +18,10 @@
     font-weight: normal;
     line-height: 45px;
     color: #fff;
+  }
+  &__button {
+    display: block;
+    text-align: center;
   }
   &__link {
     font-family: $baseFont;
