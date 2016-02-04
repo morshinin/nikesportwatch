@@ -1,5 +1,8 @@
 // _features.scss
 .l-features {
+  &__row {
+    lost-center: $container 20px;
+  }
   &__title {
     font-family: $gnuolane;
     font-size: 50px;
@@ -12,7 +15,9 @@
     @include listUnstyled;
   }
   &__item {
-
+    display: inline-block;
+    text-align: center;
+    width: 140px;
   }
   &__icon {
 
@@ -28,6 +33,7 @@
     font-family: $baseFont;
     font-size: 14px;
     font-weight: normal;
+    text-align: right;
     color: #818181;
   }
 }

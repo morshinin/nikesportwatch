@@ -2,7 +2,7 @@
 .l-banner {
   background-color: #171520;
   &__row {
-    lost-center: $container;
+    lost-center: $container 20px;
   }
   &__title {
     font-family: $gnuolane;
