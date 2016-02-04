@@ -377,21 +377,75 @@ th {
   font-family: 'Bebas';
   src: url("fonts/bebasNeue-Regular.ttf") format("truetype"); }
 
-.l-header__contact {
-  list-style-type: none; }
+* {
+  box-sizing: border-box; }
 
-.l-header__phone a {
-  font-family: "PT Sans Bold", sans-serif;
-  font-size: 30px;
-  color: #000;
-  text-decoration: none; }
-
-.l-header__email a {
-  font-family: "PT Sans Regular", sans-serif;
-  color: #000;
-  font-size: 14px;
-  opacity: .5;
-  text-decoration: none; }
+body *:not(input):not(textarea):not(select) {
+  background-color: rgba(0, 0, 255, 0.1); }
+.l-header {
+  *zoom: 1;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px; }
+.l-header:before {
+  content: '';
+  display: table; }
+.l-header:after {
+  content: '';
+  display: table;
+  clear: both; }
+  .l-header__row {
+    *zoom: 1; }
+  .l-header__row:before {
+  content: '';
+  display: table; }
+  .l-header__row:after {
+  content: '';
+  display: table;
+  clear: both; }
+  .l-header__logo {
+    width: calc(99.99% * 4/12 - (20px - 20px * 4/12));
+    margin-right: calc(99.99% * 4/12 - (20px - 20px * 4/12) + (20px * 2)) !important; }
+  .l-header__logo:nth-child(1n) {
+  float: left;
+  margin-right: 20px;
+  clear: none; }
+  .l-header__logo:last-child {
+  margin-right: 0; }
+  .l-header__logo:nth-child(12n) {
+  float: right; }
+  .l-header__logo:nth-child(12n) {
+  margin-right: 0; }
+  .l-header__logo:nth-child(12n + 1) {
+  clear: left; }
+  .l-header__contact {
+    list-style-type: none;
+    width: calc(99.99% * 4/12 - (20px - 20px * 4/12)); }
+  .l-header__contact:nth-child(1n) {
+  float: left;
+  margin-right: 20px;
+  clear: none; }
+  .l-header__contact:last-child {
+  margin-right: 0; }
+  .l-header__contact:nth-child(12n) {
+  float: right; }
+  .l-header__contact:nth-child(12n) {
+  margin-right: 0; }
+  .l-header__contact:nth-child(12n + 1) {
+  clear: left; }
+  .l-header__phone a {
+    font-family: "PT Sans Bold", sans-serif;
+    font-size: 30px;
+    color: #000;
+    text-decoration: none; }
+  .l-header__email a {
+    font-family: "PT Sans Regular", sans-serif;
+    color: #000;
+    font-size: 14px;
+    opacity: .5;
+    text-decoration: none; }
 
 .l-banner {
   background-color: #171520; }

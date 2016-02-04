@@ -10,12 +10,13 @@ var autoprefixer = require('autoprefixer');
 var cssnano = require('cssnano');
 
 var jade = require('gulp-jade');
+var lost = require('lost');
 
 // #CSS
-
 gulp.task('css', function() {
   var processors = [
     // magician({hosted:'../fonts'}),
+    lost,
     autoprefixer
     // cssnano
   ];
