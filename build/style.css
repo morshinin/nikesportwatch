@@ -816,17 +816,36 @@ body *:not(input):not(textarea):not(select) {
   .l-video__player:nth-child(12n + 1) {
   clear: left; }
 
+.l-testimonial__row {
+  *zoom: 1;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.l-testimonial__row:before {
+  content: '';
+  display: table; }
+
+.l-testimonial__row:after {
+  content: '';
+  display: table;
+  clear: both; }
+
 .l-testimonial__title {
   font-family: "Gnuolane", sans-serif;
   font-size: 50px;
   font-weight: normal;
   text-transform: uppercase;
+  text-align: center;
   color: #191919; }
 
 .l-testimonial__text {
   font-family: "PT Sans Regular", sans-serif;
   font-size: 20px;
   font-weight: normal;
+  text-align: center;
   color: #353535; }
 
 .l-testimonial__highlight {
