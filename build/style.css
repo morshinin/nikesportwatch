@@ -383,6 +383,9 @@ th {
 body *:not(input):not(textarea):not(select) {
   background-color: rgba(0, 0, 255, 0.1); }
 
+ul {
+  padding: 0; }
+
 .align-right {
   float: right; }
 
@@ -916,7 +919,16 @@ body *:not(input):not(textarea):not(select) {
     text-align: center;
     color: #fff; }
   .l-howWeWork__list {
-    list-style-type: none; }
+    list-style-type: none;
+    *zoom: 1;
+    padding: 0; }
+  .l-howWeWork__list:before {
+  content: '';
+  display: table; }
+  .l-howWeWork__list:after {
+  content: '';
+  display: table;
+  clear: both; }
   .l-howWeWork__item {
     width: calc(99.99% * 1/3 - (20px - 20px * 1/3));
     text-align: center; }
