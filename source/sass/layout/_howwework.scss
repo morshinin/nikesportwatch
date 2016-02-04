@@ -1,6 +1,9 @@
 // _howwework.scss
 .l-howWeWork {
   background-color: #16141f;
+  &__row {
+    @include row();
+  }
   &__title {
     font-family: $gnuolane;
     font-size: 60px;
@@ -11,6 +14,10 @@
   }
   &__list {
     @include listUnstyled;
+  }
+  &__item {
+    lost-column: 1/3;
+    text-align: center;
   }
   &__text {
     font-family: $boldFont;

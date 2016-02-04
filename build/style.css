@@ -894,6 +894,20 @@ body *:not(input):not(textarea):not(select) {
 
 .l-howWeWork {
   background-color: #16141f; }
+  .l-howWeWork__row {
+    *zoom: 1;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .l-howWeWork__row:before {
+  content: '';
+  display: table; }
+  .l-howWeWork__row:after {
+  content: '';
+  display: table;
+  clear: both; }
   .l-howWeWork__title {
     font-family: "Gnuolane", sans-serif;
     font-size: 60px;
@@ -903,6 +917,21 @@ body *:not(input):not(textarea):not(select) {
     color: #fff; }
   .l-howWeWork__list {
     list-style-type: none; }
+  .l-howWeWork__item {
+    width: calc(99.99% * 1/3 - (20px - 20px * 1/3));
+    text-align: center; }
+  .l-howWeWork__item:nth-child(1n) {
+  float: left;
+  margin-right: 20px;
+  clear: none; }
+  .l-howWeWork__item:last-child {
+  margin-right: 0; }
+  .l-howWeWork__item:nth-child(3n) {
+  float: right; }
+  .l-howWeWork__item:nth-child(3n) {
+  margin-right: 0; }
+  .l-howWeWork__item:nth-child(3n + 1) {
+  clear: left; }
   .l-howWeWork__text {
     font-family: "PT Sans Bold", sans-serif;
     font-size: 18px;
