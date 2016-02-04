@@ -538,6 +538,26 @@ th {
   text-transform: uppercase;
   color: #e54827; }
 
+.l-callToAction--secondary {
+  background: #cfcfcf;
+  background: -webkit-linear-gradient(top, #cfcfcf 1%, white 23%);
+  background: linear-gradient(to bottom, #cfcfcf 1%, white 23%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', endColorstr='#ffffff',GradientType=0 ); }
+  .l-callToAction--secondary__title {
+    font-family: "Gnuolane", sans-serif;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 60px;
+    text-align: center;
+    color: #232323; }
+  .l-callToAction--secondary__subtitle {
+    font-family: "Gnuolane", sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #272727; }
+
 .m-logo--header {
   text-decoration: none;
   color: #000;
