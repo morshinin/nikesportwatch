@@ -1,0 +1,61 @@
+// _payment.scss
+.l-payment {
+  &__list {
+    @include listUnstyled;
+    &--secondary {
+      @include listUnstyled;
+    }
+  }
+  &__item {
+    text-align: center;
+    &--secondary {
+      text-align: center;
+    }
+  }
+  &__title {
+    font-family: $gnuolane;
+    font-size: 40px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #979797;
+  }
+  &__text {
+    font-family: $baseFont;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #707070;
+    &--rocketbank {
+      font-family: $boldFont;
+      font-size: 18px;
+      font-weight: normal;
+      text-transform: uppercase;
+      text-align: left;
+      text-decoration: underline;
+      color: #707070;
+    }
+    &--secondary {
+      font-family: $baseFont;
+      font-size: 18px;
+      font-weight: normal;
+      text-transform: uppercase;
+      text-align: center;
+      color: #595959;
+      strong {
+        font-family: $boldFont;
+      }
+    }
+  }
+  &__smallText {
+    font-family: $baseFont;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: none;
+    text-align: left;
+    text-decoration: none;
+    color: #707070;
+  }
+}
