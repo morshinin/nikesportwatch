@@ -1,6 +1,9 @@
 // _banner.scss
 .l-banner {
   background-color: #171520;
+  &__row {
+    lost-center: $container;
+  }
   &__title {
     font-family: $gnuolane;
     font-size: 60px;
@@ -8,16 +11,26 @@
     color: $baseInverted;
   }
   &__price {
+    display: block;
     font-family: $gnuolane;
     font-size: 75px;
     font-weight: bold;
+    text-align: right;
     color: $highlight;
   }
   &__discount {
+    display: block;
     font-family: $gnuolane;
     font-size: 25.32px;
     font-weight: normal;
+    text-align: right;
     color: #4d4d4d;
     opacity: .5;
+  }
+  &__timer {
+    lost-column: 2/3 0;
+  }
+  &__button {
+    lost-column: 1/3 0;
   }
 }

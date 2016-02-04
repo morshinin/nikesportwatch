@@ -406,6 +406,7 @@ body *:not(input):not(textarea):not(select) {
   display: table;
   clear: both; }
   .l-header__logo {
+    text-align: center;
     width: calc(99.99% * 4/12 - (20px - 20px * 4/12));
     margin-right: calc(99.99% * 4/12 - (20px - 20px * 4/12) + (20px * 2)) !important; }
   .l-header__logo:nth-child(1n) {
@@ -449,22 +450,66 @@ body *:not(input):not(textarea):not(select) {
 
 .l-banner {
   background-color: #171520; }
+  .l-banner__row {
+    *zoom: 1;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto; }
+  .l-banner__row:before {
+  content: '';
+  display: table; }
+  .l-banner__row:after {
+  content: '';
+  display: table;
+  clear: both; }
   .l-banner__title {
     font-family: "Gnuolane", sans-serif;
     font-size: 60px;
     font-weight: normal;
     color: #fff; }
   .l-banner__price {
+    display: block;
     font-family: "Gnuolane", sans-serif;
     font-size: 75px;
     font-weight: bold;
+    text-align: right;
     color: #e95631; }
   .l-banner__discount {
+    display: block;
     font-family: "Gnuolane", sans-serif;
     font-size: 25.32px;
     font-weight: normal;
+    text-align: right;
     color: #4d4d4d;
     opacity: .5; }
+  .l-banner__timer {
+    width: calc(99.99% * 2/3 - (20px - 20px * 2/3)); }
+  .l-banner__timer:nth-child(1n) {
+  float: left;
+  margin-right: 20px;
+  clear: none; }
+  .l-banner__timer:last-child {
+  margin-right: 0; }
+  .l-banner__timer:nth-child(0n) {
+  float: right; }
+  .l-banner__timer:nth-child(0n) {
+  margin-right: 0; }
+  .l-banner__timer:nth-child(0n + 1) {
+  clear: left; }
+  .l-banner__button {
+    width: calc(99.99% * 1/3 - (20px - 20px * 1/3)); }
+  .l-banner__button:nth-child(1n) {
+  float: left;
+  margin-right: 20px;
+  clear: none; }
+  .l-banner__button:last-child {
+  margin-right: 0; }
+  .l-banner__button:nth-child(0n) {
+  float: right; }
+  .l-banner__button:nth-child(0n) {
+  margin-right: 0; }
+  .l-banner__button:nth-child(0n + 1) {
+  clear: left; }
 
 .l-features__title {
   font-family: "Gnuolane", sans-serif;

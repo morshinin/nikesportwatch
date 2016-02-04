@@ -2,11 +2,12 @@
 @lost gutter 20px;
 
 .l-header {
-  lost-center: 980px 20px;
+  lost-center: $container 20px;
   &__row {
     lost-utility: clearfix;
   }
   &__logo {
+    text-align: center;
     lost-column: 4/12;
     lost-offset: 4/12;
   }
