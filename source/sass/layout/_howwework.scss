@@ -1,0 +1,30 @@
+// _howwework.scss
+.l-howWeWork {
+  background-color: #16141f;
+  &__title {
+    font-family: $gnuolane;
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+  }
+  &__list {
+    @include listUnstyled;
+  }
+  &__text {
+    font-family: $boldFont;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+  }
+  &__smallText {
+    font-family: $baseFont;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    color: #fff;
+  }
+}
