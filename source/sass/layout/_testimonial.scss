@@ -1,0 +1,23 @@
+// _testimonial.scss
+.l-testimonial {
+  &__title {
+    font-family: $gnuolane;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #191919;
+  }
+  &__text {
+    font-family: $baseFont;
+    font-size: 20px;
+    font-weight: normal;
+    color: #353535;
+  }
+  &__highlight {
+    font-family: $boldFont;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #e54827;
+  }
+}

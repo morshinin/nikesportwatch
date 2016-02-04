@@ -1,0 +1,27 @@
+// _slider.scss
+.m-slider {
+  &__slide {
+    outline: 1px solid #dcdcdc;
+    border: 5px solid #e6e6e6;
+  }
+  &__title {
+    font-family: $boldFont;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #464646;
+  }
+  &__description {
+    font-family: $baseFont;
+    font-size: 14px;
+    font-weight: normal;
+    color: #9b9b9b;
+  }
+  &__text {
+    font-family: $italic;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #565656;
+  }
+}

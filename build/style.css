@@ -362,6 +362,10 @@ th {
   src: url("fonts/pt-sans-bold.ttf") format("truetype"); }
 
 @font-face {
+  font-family: 'PT Sans Italic';
+  src: url("fonts/pt-sans-italic.ttf") format("truetype"); }
+
+@font-face {
   font-family: 'Gnuolane';
   src: url("fonts/gnuolane-free-cyrillic.ttf") format("truetype"); }
 
@@ -373,7 +377,7 @@ th {
   list-style-type: none; }
 
 .l-header__phone a {
-  font-family: "pt-sans-bold", sans-serif;
+  font-family: "PT Sans Bold", sans-serif;
   font-size: 30px;
   color: #000;
   text-decoration: none; }
@@ -514,6 +518,26 @@ th {
     line-height: 34px;
     color: #fff; }
 
+.l-testimonial__title {
+  font-family: "Gnuolane", sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #191919; }
+
+.l-testimonial__text {
+  font-family: "PT Sans Regular", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #353535; }
+
+.l-testimonial__highlight {
+  font-family: "PT Sans Bold", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #e54827; }
+
 .m-logo--header {
   text-decoration: none;
   color: #000;
@@ -584,3 +608,27 @@ th {
   font-size: 20px;
   font-weight: normal;
   color: #2e2e2e; }
+
+.m-slider__slide {
+  outline: 1px solid #dcdcdc;
+  border: 5px solid #e6e6e6; }
+
+.m-slider__title {
+  font-family: "PT Sans Bold", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #464646; }
+
+.m-slider__description {
+  font-family: "PT Sans Regular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #9b9b9b; }
+
+.m-slider__text {
+  font-family: "PT Sans Italic", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #565656; }
