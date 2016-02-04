@@ -1,0 +1,21 @@
+// _form.scss
+.m-form {
+  &__input {
+    display: inline-block;
+    width: 299px;
+    height: 51px;
+    background-color: #f3f3f3;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(152, 152, 152);
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 6.79px 0.21px rgba(0, 0, 0, 0.4);
+    font-family: $baseFont;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;
+    text-align: left;
+    color: #a2a2a2;
+  }
+}
