@@ -946,15 +946,63 @@ body *:not(input):not(textarea):not(select) {
     text-transform: none;
     color: #fff; }
 
+.l-payment__row {
+  *zoom: 1;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.l-payment__row:before {
+  content: '';
+  display: table; }
+
+.l-payment__row:after {
+  content: '';
+  display: table;
+  clear: both; }
+
 .l-payment__list {
   list-style-type: none; }
   .l-payment__list--secondary {
     list-style-type: none; }
 
 .l-payment__item {
-  text-align: center; }
+  text-align: center;
+  width: calc(99.99% * 1/6 - (20px - 20px * 1/6)); }
+
+.l-payment__item:nth-child(1n) {
+  float: left;
+  margin-right: 20px;
+  clear: none; }
+
+.l-payment__item:last-child {
+  margin-right: 0; }
+
+.l-payment__item:nth-child(6n) {
+  float: right; }
+
+.l-payment__item:nth-child(6n) {
+  margin-right: 0; }
+
+.l-payment__item:nth-child(6n + 1) {
+  clear: left; }
   .l-payment__item--secondary {
-    text-align: center; }
+    text-align: center;
+    width: calc(99.99% * 1/4 - (20px - 20px * 1/4)); }
+  .l-payment__item--secondary:nth-child(1n) {
+  float: left;
+  margin-right: 20px;
+  clear: none; }
+  .l-payment__item--secondary:last-child {
+  margin-right: 0; }
+  .l-payment__item--secondary:nth-child(4n) {
+  float: right; }
+  .l-payment__item--secondary:nth-child(4n) {
+  margin-right: 0; }
+  .l-payment__item--secondary:nth-child(4n + 1) {
+  clear: left; }
 
 .l-payment__title {
   font-family: "Gnuolane", sans-serif;
@@ -962,7 +1010,25 @@ body *:not(input):not(textarea):not(select) {
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
-  color: #979797; }
+  color: #979797;
+  width: calc(99.99% * 1/1 - (20px - 20px * 1/1)); }
+
+.l-payment__title:nth-child(1n) {
+  float: left;
+  margin-right: 20px;
+  clear: none; }
+
+.l-payment__title:last-child {
+  margin-right: 0; }
+
+.l-payment__title:nth-child(1n) {
+  float: right; }
+
+.l-payment__title:nth-child(1n) {
+  margin-right: 0; }
+
+.l-payment__title:nth-child(1n + 1) {
+  clear: left; }
 
 .l-payment__text {
   font-family: "PT Sans Regular", sans-serif;

@@ -1,5 +1,8 @@
 // _payment.scss
 .l-payment {
+  &__row {
+    @include row();
+  }
   &__list {
     @include listUnstyled;
     &--secondary {
@@ -8,8 +11,10 @@
   }
   &__item {
     text-align: center;
+    lost-column: 1/6;
     &--secondary {
       text-align: center;
+      lost-column: 1/4;
     }
   }
   &__title {
@@ -19,6 +24,7 @@
     text-transform: uppercase;
     text-align: center;
     color: #979797;
+    lost-column: 1/1;
   }
   &__text {
     font-family: $baseFont;
