@@ -2,6 +2,8 @@
 @lost gutter 20px;
 
 .l-header {
+  min-height: 119px;
+  padding-top: 23px;
   &__row {
     @include row();
   }
@@ -9,14 +11,17 @@
     text-align: center;
     lost-column: 4/12;
     lost-offset: 4/12;
-    @media screen and (max-width: 768px) {
+    @include tablet {
       lost-column: 1/2;
+      lost-offset: 0;
     }
   }
   &__contact {
+    padding-top: 12px;
+    text-align: right;
     @include listUnstyled;
     lost-column: 4/12;
-    @media screen and (max-width: 768px) {
+    @include tablet {
       lost-column: 1/2;
     }
   }
