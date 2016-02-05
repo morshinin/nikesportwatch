@@ -1,5 +1,7 @@
 // _calltoaction--secondary
 .l-callToAction--secondary {
+  padding-bottom: 103px;
+
   background: rgb(207,207,207);
   background: -moz-linear-gradient(top,  rgba(207,207,207,1) 1%, rgba(255,255,255,1) 23%);
   background: -webkit-linear-gradient(top,  rgba(207,207,207,1) 1%,rgba(255,255,255,1) 23%);
@@ -9,14 +11,19 @@
     @include row();
   }
   &__title {
+    margin-top: 71px;
+
     font-family: $gnuolane;
     font-size: 45px;
     font-weight: normal;
-    line-height: 60px;
+    line-height: 53px;
     text-align: center;
+    letter-spacing: 0.3px;
     color: #232323;
   }
   &__subtitle {
+    margin-bottom: 66px;
+
     font-family: $gnuolane;
     font-size: 60px;
     font-weight: normal;

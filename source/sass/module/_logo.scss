@@ -8,9 +8,17 @@
   }
   &__image {
     // text-align: center;
+    &--footer {
+      position: relative;
+      left: 90px;
+
+      margin-bottom: 19px;
+    }
   }
   &__text {
     &--footer {
+      padding-left: 15px;
+
       font-family: $baseFont;
       font-size: 14px;
       font-weight: normal;

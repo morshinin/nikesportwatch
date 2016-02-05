@@ -4,8 +4,11 @@ section.l-callToAction--third
     p.l-callToAction--third__text Позвоните нам по телефону 
       strong +7 (916) 195-97-77 
       | или оставьте заявку и мы ответим на Ваши вопросы:
-    form.m-form(action="#")
-      input.l-callToAction--third__input.m-form__input(type="text", value="Ваше имя*")
-      input.l-callToAction--third__input.m-form__input(type="text", value="Ваш номер телефона*")
-      button.l-callToAction--third__input.m-button.m-button--secondary(name="Заказать звонок") Заказать звонок
+    form.l-callToAction--third__form.m-form(action="#")
+      .l-callToAction--third__input
+        input.m-form__input(type="text", value="Ваше имя*")
+      .l-callToAction--third__input
+        input.m-form__input(type="text", value="Ваш номер телефона*")
+      .l-callToAction--third__button
+        button.m-button.m-button--secondary(name="Заказать звонок") Заказать звонок
     a.l-callToAction--third__link(href="#") Политика конфиденциальности

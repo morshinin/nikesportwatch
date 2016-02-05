@@ -1,6 +1,7 @@
 // _testimonial.scss
 .l-testimonial {
   padding-top: 64px;
+  padding-bottom: 77px;
   &__row {
     @include row();
   }
@@ -15,17 +16,13 @@
     color: #191919;
   }
   &__text {
+    margin-bottom: 36px;
+
     font-family: $baseFont;
     font-size: 20px;
     font-weight: normal;
     text-align: center;
     color: #353535;
-    &::before {
-      content: url('images/icons/finger.png');
-    }
-    &::after {
-      content: url('images/icons/finger.png');
-    }
   }
   &__highlight {
     font-family: $boldFont;
@@ -33,5 +30,16 @@
     font-weight: normal;
     text-transform: uppercase;
     color: #e54827;
+    &:nth-of-type(1) {
+      padding-left: 40px;
+      background: url('images/icons/finger-min.png') left center no-repeat;
+    }
+    &:nth-of-type(2) {
+      padding-right: 40px;
+      background: url('images/icons/finger-min.png') right center no-repeat;
+    }
+  }
+  &__vkWidget {
+    padding-left: 40px;
   }
 }

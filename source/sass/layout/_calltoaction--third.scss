@@ -1,10 +1,16 @@
 // _calltoaction--third.scss
 .l-callToAction--third {
+  padding-bottom: 66px;
+
   background-color: #eb5a32;
+  
   &__row {
     @include row();
   }
   &__title {
+    margin-top: 69px;
+    margin-bottom: 24px;
+
     font-family: $gnuolane;
     font-size: 60px;
     font-weight: normal;
@@ -15,6 +21,8 @@
   &__text {
     lost-column: 10/12;
     lost-move: 1/12;
+    margin-bottom: 69px;
+
     font-family: $baseFont;
     font-size: 30px;
     font-weight: normal;
@@ -27,9 +35,18 @@
       font-family: $boldFont;
     }
   }
+  &__form {
+    lost-utility: clearfix;
+  }
   &__input {
     lost-column: 1/3;
+    padding: 10px 0;
   }
+  &__button {
+    lost-column: 1/3;
+    margin-bottom: 17px;
+  }
+
   &__link {
     float: right;
     font-family: $baseFont;
