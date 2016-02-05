@@ -1,9 +1,12 @@
 // _testimonial.scss
 .l-testimonial {
+  padding-top: 64px;
   &__row {
     @include row();
   }
   &__title {
+    margin-bottom: 71px;
+
     font-family: $gnuolane;
     font-size: 50px;
     font-weight: normal;
@@ -17,6 +20,12 @@
     font-weight: normal;
     text-align: center;
     color: #353535;
+    &::before {
+      content: url('images/icons/finger.png');
+    }
+    &::after {
+      content: url('images/icons/finger.png');
+    }
   }
   &__highlight {
     font-family: $boldFont;

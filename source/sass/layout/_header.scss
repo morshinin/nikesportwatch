@@ -2,7 +2,7 @@
 @lost gutter 20px;
 
 .l-header {
-  min-height: 119px;
+  padding-bottom: 22px;
   padding-top: 23px;
   &__row {
     @include row();
@@ -28,7 +28,7 @@
   &__phone {
     a {
       font-family: $boldFont;
-      font-size: $subtitle--secondary;
+      font-size: 30px;
       color: $baseColor;
       text-decoration: none;
     }
@@ -37,7 +37,7 @@
     a {
       font-family: $baseFont;
       color: $baseColor;
-      font-size: $smallSize;
+      font-size: 14px;
       opacity: .5;
       text-decoration: none;
     }

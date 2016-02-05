@@ -1,8 +1,20 @@
 // _slider.scss
 .m-slider {
+  margin-bottom: 76px;
   &__slide {
+    width: 825px;
+    margin: 0 auto;
+    padding: 29px;
+
+    min-height: 265px;
+    overflow: hidden;
+
     outline: 1px solid #dcdcdc;
     border: 5px solid #e6e6e6;
+  }
+  &__image {
+    float: left;
+    margin: 8px 36px 8px 8px;
   }
   &__title {
     font-family: $boldFont;
@@ -12,12 +24,17 @@
     color: #464646;
   }
   &__description {
+    display: inline-block;
+    margin-bottom: 10px;
+
     font-family: $baseFont;
     font-size: 14px;
     font-weight: normal;
     color: #9b9b9b;
   }
   &__text {
+    padding-top: 5px;
+
     font-family: $italic;
     font-size: 16px;
     font-weight: normal;

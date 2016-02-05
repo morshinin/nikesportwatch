@@ -2,6 +2,9 @@
 .l-video {
   background: url('images/video__bg-min.jpg') center center no-repeat;
   // background-color: #e95833;
+  padding-top: 65px;
+  padding-bottom: 104px;
+
   &__row {
     @include row;
   }
@@ -9,10 +12,13 @@
     lost-column: 5/12;
   }
   &__title {
+    margin-bottom: 17px;
+
     font-family: $gnuolane;
     font-size: 60px;
     font-weight: normal;
     text-transform: uppercase;
+    letter-spacing: 0.7px;
     color: #fff;
   }
   &__subtitle {
@@ -24,5 +30,20 @@
   }
   &__player {
     lost-column: 7/12;
+
+    padding-top: 14px;
+  }
+  &__playerBg {
+    width: 540px;
+    height: 310px;
+
+    padding: 11px;
+
+    background: #fff;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(233, 92, 55);
+    box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.36);
   }
 }
