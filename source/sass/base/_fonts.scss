@@ -1,19 +1,47 @@
 // _fonts.scss
 @font-face {
-  font-family: 'PT Sans Regular';
-  // src: url('fonts/pt-sans-regular.eot');
-  // src: url('fonts/pt-sans-regular.woff2') format('woff2')
-  src: url('fonts/pt-sans-regular.ttf') format('truetype');
-  // url('fonts/pt-sans-regular.ttf') format('truetype'),
-  // url('fonts/pt-sans-regular.svg') format('svg');
+	font-family: 'PTSansRegular';
+	src: url('fonts/pt-regular/PTS55F_W.eot');
+	src:
+	     url('fonts/pt-regular/PTS55F_W.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/pt-regular/PTS55F_W.woff') format('woff'),
+	     url('fonts/pt-regular/PTS55F_W.ttf') format('truetype'),
+	     url('fonts/pt-regular/PTS55F_W.svg#PTSans-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-  font-family: 'PT Sans Bold';
-  src: url('fonts/pt-sans-bold.ttf') format('truetype');
+	font-family: 'PTSansBold';
+	src: url('fonts/pt-bold/PTS75F_W.eot');
+	src:
+	     url('fonts/pt-bold/PTS75F_W.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/pt-bold/PTS75F_W.woff') format('woff'),
+	     url('fonts/pt-bold/PTS75F_W.ttf') format('truetype'),
+	     url('fonts/pt-bold/PTS75F_W.svg#PTSans-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-  font-family: 'PT Sans Italic';
-  src: url('fonts/pt-sans-italic.ttf') format('truetype');
+	font-family: 'PTSansItalic';
+	src: url('fonts/pt-italic/PTS56F_W.eot');
+	src:
+	     url('fonts/pt-italic/PTS56F_W.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/pt-italic/PTS56F_W.woff') format('woff'),
+	     url('fonts/pt-italic/PTS56F_W.ttf') format('truetype'),
+	     url('fonts/pt-italic/PTS56F_W.svg#PTSans-Italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PTSansNarrow';
+	src: url('fonts/pt-narrow/PTN57F_W.eot');
+	src:
+	     url('fonts/pt-narrow/PTN57F_W.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/pt-narrow/PTN57F_W.woff') format('woff'),
+	     url('fonts/pt-narrow/PTN57F_W.ttf') format('truetype'),
+	     url('fonts/pt-narrow/PTN57F_W.svg#PTSans-Narrow') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
   font-family: 'Gnuolane';
