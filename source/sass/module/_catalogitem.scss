@@ -2,6 +2,8 @@
 .m-catalogItem {
 
   &__image {
+    width: 100%;
+    height: auto;
     padding: 2px;
     margin-bottom: 7px;
 
@@ -16,6 +18,8 @@
   }
   &--secondary {
     &__image {
+      width: 100%;
+      height: auto;
       padding: 3px;
 
       border: 1px solid #e8e8e8;
