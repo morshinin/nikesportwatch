@@ -2,9 +2,13 @@
 .m-catalogItem {
 
   &__image {
+    padding: 2px;
+    margin-bottom: 7px;
+
     border: 1px solid #e8e8e8;
   }
   &__price {
+    margin-left: 40px;
     font-family: $baseFont;
     font-size: 20px;
     font-weight: normal;
@@ -12,15 +16,26 @@
   }
   &--secondary {
     &__image {
+      padding: 3px;
+
       border: 1px solid #e8e8e8;
     }
     &__description {
-      font-family: $gnuolane;
+      margin-top: -6px;
+      margin-bottom: 19px;
+      // padding-left: 5px;
+
+      font-family: $baseFont;
       font-size: 20px;
       font-weight: normal;
+      line-height: 23px;
       color: #2e2e2e;
     }
     &__price {
+      display: block;
+      // margin-left: 5px;
+      margin-bottom: 16px;
+
       font-family: $baseFont;
       font-size: 20px;
       font-weight: normal;

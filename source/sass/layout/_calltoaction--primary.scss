@@ -2,10 +2,14 @@
 .l-callToAction--primary {
   background: url('images/cta-bg-min.jpg') center center no-repeat;
   text-align: center;
+  padding-bottom: 67px;
   &__row {
     lost-center: $container 20px;
   }
   &__title {
+    margin-top: 77px;
+    margin-bottom: 32px;
+
     font-family: $gnuolane;
     font-size: 50px;
     font-weight: normal;
@@ -13,6 +17,8 @@
     color: #fff;
   }
   &__text {
+    margin-bottom: 77px;
+
     font-family: $baseFont;
     font-size: 30px;
     font-weight: normal;
@@ -20,8 +26,7 @@
     color: #fff;
   }
   &__button {
-    display: block;
-    text-align: center;
+    margin-bottom: 17px;
   }
   &__link {
     font-family: $baseFont;
