@@ -37,6 +37,9 @@
   }
   &__item {
     lost-column: 1/3;
+    @include tablet {
+      lost-column: 1/2;
+    }
     &--secondary {
       lost-column: 1/4;
 

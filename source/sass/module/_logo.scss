@@ -5,9 +5,12 @@
     text-decoration: none;
     color: $baseColor;
     font-size: 15px;
+    @include tablet {
+      font-size: 13px;
+    }
   }
   &__image {
-    // text-align: center;
+
     &--footer {
       position: relative;
       left: 90px;

@@ -19,7 +19,7 @@ gulp.task('css', function() {
     // magician({hosted:'../fonts'}),
     lost,
     autoprefixer,
-    pxtorem
+    pxtorem({propWhiteList:[]})
     // cssnano
   ];
   return gulp.src('./source/sass/**/*.scss')

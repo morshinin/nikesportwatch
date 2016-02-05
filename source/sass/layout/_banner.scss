@@ -3,6 +3,12 @@
   background: url('images/banner-min.jpg') center center no-repeat;
   // background-color: #171520;
   padding-bottom: 71px;
+  @include tablet {
+    background-color: #171520;
+    background-size: 160% auto;
+    background-position: 65% 30%;
+    padding-bottom: 85px;
+  }
   &__row {
     lost-center: $container 20px;
   }
@@ -13,6 +19,13 @@
     font-weight: normal;
     letter-spacing: 0.5px;
     color: $baseInverted;
+    @include tablet {
+      text-align: right;
+      // font-size: 50px;
+      // margin-top: 30px;
+      padding-left: 10px;
+      margin-bottom: 30px;
+    }
   }
   &__price {
     display: block;
@@ -22,6 +35,9 @@
     text-align: right;
     letter-spacing: 0.8px;
     color: $highlight;
+    @include tablet {
+      font-size: 60px;
+    }
   }
   &__discount {
     display: block;
@@ -33,12 +49,21 @@
     letter-spacing: 0.3px;
     color: #4d4d4d;
     opacity: .5;
+    @include tablet {
+      font-size: 18px;
+    }
   }
   &__timer {
     lost-column: 2/3 0;
+    @include tablet {
+      lost-column: 1/2 0;
+    }
   }
   &__button {
     lost-column: 1/3 0;
     padding-left: 37px;
+    @include tablet {
+      lost-column: 1/2 0;
+    }
   }
 }
