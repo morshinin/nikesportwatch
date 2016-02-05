@@ -8,6 +8,7 @@ var csslint = require('gulp-csslint');
 var magician = require('postcss-font-magician');
 var autoprefixer = require('autoprefixer');
 var cssnano = require('cssnano');
+var pxtorem = require('postcss-pxtorem');
 
 var jade = require('gulp-jade');
 var lost = require('lost');
@@ -17,7 +18,8 @@ gulp.task('css', function() {
   var processors = [
     // magician({hosted:'../fonts'}),
     lost,
-    autoprefixer
+    autoprefixer,
+    pxtorem
     // cssnano
   ];
   return gulp.src('./source/sass/**/*.scss')

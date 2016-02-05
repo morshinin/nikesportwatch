@@ -1,33 +1,53 @@
 // _features.scss
 .l-features {
   height: 435px;
+
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 79%, rgba(230,230,230,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 79%,rgba(230,230,230,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 79%,rgba(230,230,230,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 );
   &__row {
     lost-center: $container 20px;
   }
   &__title {
-    font-family: $gnuolane;
+    margin-top: 66px;
+    margin-bottom: 66px;
+
     font-size: 50px;
     font-weight: normal;
+
     text-transform: uppercase;
     text-align: center;
+
     color: $baseColor;
   }
   &__list {
     @include listUnstyled;
+
+    padding-left: 7px;
+
+    margin-bottom: 32px;
   }
   &__item {
     display: inline-block;
     text-align: center;
     width: 140px;
+    vertical-align: top;
+    &:last-of-type {
+      margin-left: 33px;
+    }
   }
   &__icon {
-
+    margin-bottom: 30px;
   }
   &__text {
     font-family: $baseFont;
     font-size: 18px;
     font-weight: normal;
     text-transform: uppercase;
+    letter-spacing: -0.3px;
+    line-height: 21px;
     color: #393939;
   }
   &__small {
@@ -35,6 +55,7 @@
     font-size: 14px;
     font-weight: normal;
     text-align: right;
+    letter-spacing: -0.1px;
     color: #818181;
   }
 }
