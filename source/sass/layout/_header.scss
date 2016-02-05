@@ -2,19 +2,23 @@
 @lost gutter 20px;
 
 .l-header {
-  lost-center: $container 20px;
   &__row {
-    lost-utility: clearfix;
+    @include row();
   }
   &__logo {
     text-align: center;
     lost-column: 4/12;
     lost-offset: 4/12;
+    @media screen and (max-width: 768px) {
+      lost-column: 1/2;
+    }
   }
   &__contact {
     @include listUnstyled;
     lost-column: 4/12;
-
+    @media screen and (max-width: 768px) {
+      lost-column: 1/2;
+    }
   }
   &__phone {
     a {
