@@ -493,7 +493,7 @@ ul {
   text-decoration: none; }
 
 .l-banner {
-  background-color: #171520; }
+  background: url("images/banner-min.jpg") center center no-repeat; }
   .l-banner__row {
     *zoom: 1;
     max-width: 980px;
@@ -688,7 +688,7 @@ ul {
   clear: left; }
 
 .l-callToAction--primary {
-  background-color: #1e1b28;
+  background: url("images/cta-bg-min.jpg") center center no-repeat;
   text-align: center; }
   .l-callToAction--primary__row {
     *zoom: 1;
@@ -798,7 +798,7 @@ ul {
   color: #171717; }
 
 .l-video {
-  background-color: #e95833; }
+  background: url("images/video__bg-min.jpg") center center no-repeat; }
   .l-video__row {
     *zoom: 1;
     max-width: 980px;
@@ -928,7 +928,7 @@ ul {
     color: #272727; }
 
 .l-howWeWork {
-  background-color: #16141f; }
+  background: url("images/howWeWork__bg-min.jpg") center center no-repeat; }
   .l-howWeWork__row {
     *zoom: 1;
     max-width: 980px;

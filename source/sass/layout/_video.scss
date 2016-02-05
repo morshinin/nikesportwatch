@@ -1,6 +1,7 @@
 // _video.scss
 .l-video {
-  background-color: #e95833;
+  background: url('images/video__bg-min.jpg') center center no-repeat;
+  // background-color: #e95833;
   &__row {
     @include row;
   }

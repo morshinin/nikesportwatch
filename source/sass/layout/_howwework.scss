@@ -1,6 +1,7 @@
 // _howwework.scss
 .l-howWeWork {
-  background-color: #16141f;
+  background: url('images/howWeWork__bg-min.jpg') center center no-repeat;
+  // background-color: #16141f;
   &__row {
     @include row();
   }
