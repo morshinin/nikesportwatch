@@ -14,11 +14,12 @@
     @include tablet {
       lost-column: 1/2 0;
       lost-offset: 0;
+      padding-right: 40px;
     }
-    @include phone {
-      lost-column: 1/1 0;
-      lost-offset: 0;
-    }
+    // @include phone {
+    //   lost-column: 1/1 0;
+    //   lost-offset: 0;
+    // }
   }
   &__contact {
     padding-top: 12px;
@@ -28,10 +29,10 @@
     @include tablet {
       lost-column: 1/2;
     }
-    @include phone {
-      lost-column: 1/1;
-      text-align: center;
-    }
+    // @include phone {
+    //   lost-column: 1/1;
+    //   text-align: center;
+    // }
   }
   &__phone {
     a {

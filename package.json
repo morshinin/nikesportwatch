@@ -30,6 +30,7 @@
   "homepage": "https://github.com/morshinin/nikesportwatch#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.1",
+    "browser-sync": "^2.11.1",
     "cssnano": "^3.4.0",
     "gulp": "^3.9.0",
     "gulp-connect": "^2.3.1",

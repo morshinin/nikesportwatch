@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
 }
+html {
+  @include desktop {
+    min-width: 980px;
+  }
+  @include tablet {
+    min-width: 760px;
+  }
+}
 body {
   font-family: $baseFont;
   // lost-utility: edit;

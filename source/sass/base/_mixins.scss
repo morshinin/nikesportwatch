@@ -17,8 +17,19 @@ $desktop-width: 980px;
     @content;
   }
 }
+@mixin desktop {
+  @media screen and (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
 @mixin phone {
   @media screen and (max-width: #{$phone-width}) {
+    @content;
+  }
+}
+@mixin ios {
+  @media
+  only screen and (min-device-pixel-ratio: 1.5) {
     @content;
   }
 }

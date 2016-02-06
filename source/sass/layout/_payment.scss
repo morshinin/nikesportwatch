@@ -12,6 +12,9 @@
     &--secondary {
       @include listUnstyled;
       lost-utility: clearfix;
+      @include tablet {
+        padding: 0 130px;
+      }
     }
   }
   &__item {
@@ -20,6 +23,10 @@
     &--secondary {
       text-align: center;
       lost-column: 1/4;
+      @include tablet {
+        lost-column: 1/2;
+        margin-bottom: 40px;
+      }
     }
   }
   &__title {
@@ -36,6 +43,11 @@
   }
   &__icon {
     margin-bottom: 25px;
+    @include tablet {
+      width: 60px;
+      height: auto;
+      margin-bottom: 10px;
+    }
     &--secondary {
       margin-bottom: 18px;
     }
@@ -49,6 +61,9 @@
     text-decoration: none;
     line-height: 20px;
     color: #707070;
+    @include tablet {
+      font-size: 13px;
+    }
     &--rocketbank {
       font-family: $boldFont;
       font-size: 18px;
@@ -57,6 +72,9 @@
       text-align: left;
       text-decoration: underline;
       color: #707070;
+      @include tablet {
+        font-size: 13px;
+      }
     }
     &--secondary {
       font-family: $baseFont;
@@ -78,5 +96,8 @@
     text-align: left;
     text-decoration: none;
     color: #707070;
+    @include tablet {
+      font-size: 11px;
+    }
   }
 }

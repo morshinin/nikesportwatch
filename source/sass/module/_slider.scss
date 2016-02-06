@@ -11,12 +11,17 @@
 
     outline: 1px solid #dcdcdc;
     border: 5px solid #e6e6e6;
+    @include tablet {
+      width: 625px;
+    }
   }
   &__image {
     float: left;
     margin: 8px 36px 8px 8px;
   }
   &__title {
+    margin-left: 228px;
+
     font-family: $boldFont;
     font-size: 16px;
     font-weight: normal;
@@ -33,6 +38,7 @@
     color: #9b9b9b;
   }
   &__text {
+    margin-left: 228px;
     padding-top: 5px;
 
     font-family: $italic;

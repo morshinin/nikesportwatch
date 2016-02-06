@@ -25,6 +25,8 @@
     color: #353535;
   }
   &__highlight {
+    padding-bottom: 10px;
+
     font-family: $boldFont;
     font-size: 20px;
     font-weight: normal;
@@ -32,7 +34,7 @@
     color: #e54827;
     &:nth-of-type(1) {
       padding-left: 40px;
-      background: url('images/icons/finger-min.png') left center no-repeat;
+      background: url('images/icons/finger-rev-min.png') left center no-repeat;
     }
     &:nth-of-type(2) {
       padding-right: 40px;
@@ -40,6 +42,12 @@
     }
   }
   &__vkWidget {
-    padding-left: 40px;
+    // padding-left: 40px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  &__widgetImage {
+    width: 100%;
+    height: auto;
   }
 }

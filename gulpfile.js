@@ -3,7 +3,8 @@
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
 var sass = require('gulp-sass');
-var connect = require('gulp-connect');
+// var connect = require('gulp-connect');
+var browserSync = require('browser-sync');
 // var csslint = require('gulp-csslint');
 
 // var magician = require('postcss-font-magician');
@@ -27,7 +28,8 @@ gulp.task('css', function() {
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
     .pipe(gulp.dest('./build'))
-    .pipe(connect.reload());;
+    // .pipe(connect.reload());
+    .pipe(browserSync.reload({stream:true}));
 });
 
 // # LINT
@@ -44,7 +46,8 @@ gulp.task('html', function() {
   gulp.src('./source/jade/*.jade')
     .pipe(jade({pretty:true}))
     .pipe(gulp.dest('./build'))
-    .pipe(connect.reload());
+    // .pipe(connect.reload());
+    .pipe(browserSync.reload({stream:true}));
 });
 
 // #WATCH
@@ -55,12 +58,22 @@ gulp.task('watch', function() {
 });
 
 // #LIVE RELOAD
-gulp.task('connect', function() {
-  connect.server({
-    root: 'build',
-    livereload: true,
-    open: true
+// gulp.task('connect', function() {
+//   connect.server({
+//     root: 'build',
+//     livereload: true,
+//     open: true
+//   });
+// });
+
+//  BROWSER SYNC
+gulp.task('browser-sync', function() {
+  browserSync({
+    server: {
+      baseDir: "build"
+    }
   });
 });
 
-gulp.task('start', ['connect', 'watch']);
+// gulp.task('start', ['connect', 'watch']);
+gulp.task('start', ['browser-sync', 'watch']);
