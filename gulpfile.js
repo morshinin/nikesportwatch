@@ -3,9 +3,10 @@
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
 var sass = require('gulp-sass');
-var csslint = require('gulp-csslint');
+var connect = require('gulp-connect');
+// var csslint = require('gulp-csslint');
 
-var magician = require('postcss-font-magician');
+// var magician = require('postcss-font-magician');
 var autoprefixer = require('autoprefixer');
 var cssnano = require('cssnano');
 var pxtorem = require('postcss-pxtorem');
@@ -25,7 +26,8 @@ gulp.task('css', function() {
   return gulp.src('./source/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
-    .pipe(gulp.dest('./build'));
+    .pipe(gulp.dest('./build'))
+    .pipe(connect.reload());;
 });
 
 // # LINT
@@ -41,7 +43,8 @@ gulp.task('lint', function() {
 gulp.task('html', function() {
   gulp.src('./source/jade/*.jade')
     .pipe(jade({pretty:true}))
-    .pipe(gulp.dest('./build'));
+    .pipe(gulp.dest('./build'))
+    .pipe(connect.reload());
 });
 
 // #WATCH
@@ -50,3 +53,14 @@ gulp.task('watch', function() {
   gulp.watch('./source/sass/**/*.scss', ['css']);
   gulp.watch('./source/jade/**/*.jade', ['html']);
 });
+
+// #LIVE RELOAD
+gulp.task('connect', function() {
+  connect.server({
+    root: 'build',
+    livereload: true,
+    open: true
+  });
+});
+
+gulp.task('start', ['connect', 'watch']);

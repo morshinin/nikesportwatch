@@ -8,6 +8,7 @@
   &__list {
     @include listUnstyled;
     lost-utility: clearfix;
+    margin-bottom: 10px;
     &--secondary {
       @include listUnstyled;
       lost-utility: clearfix;
